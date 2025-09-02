@@ -33,9 +33,9 @@ const BasicCalculator = () => {
     
 
   return (
-    <div className="w-[260px] mx-auto my-5 p-4 border-2 border-black rounded-lg flex flex-col items-center">
+    <div className="w-[260px] mx-auto my-5 p-4 border-2 border-black rounded-lg">
       {/* Display */}
-      <div className="bg-[#272626] text-white rounded-md mb-3 p-3 w-full min-h-[60px] flex flex-col justify-between">
+      <div className="bg-[#272626] text-white rounded-md mb-3 p-3 w-full">
         <div className="text-right text-lg text-gray-300">
           {display || "0"}
         </div>
@@ -69,7 +69,7 @@ const BasicCalculator = () => {
         <button onClick={handleDelete} className="col-span-2 p-3 text-lg rounded-md bg-gray-200 hover:bg-gray-400">
           Backspace
         </button>
-        <button onClick={handleCalculate} className="col-span-2 p-3 text-lg rounded-md font-bold bg-blue-600 text-white hover:bg-blue-800">
+        <button onClick={handleCalculate} className="col-span-2 p-3 text-lg rounded-md font-bold bg-[#272626] text-white hover:bg-[#414141]">
           =
         </button>
       </div>
